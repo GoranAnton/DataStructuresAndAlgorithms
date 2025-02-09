@@ -1,0 +1,1 @@
+Big O is comparing the two set of code, how efficient they run, time complexity (which code is faster) measurement is in number of operations time/space(memory) complexity
