@@ -48,3 +48,9 @@ O(log n) is wery flat, not as O(1), but is far more efficient than O(n).
 5) There is O(nlog n) used in some sorting algorithms -> Merge Sort and Quick sort (the most efficient we can make with sorting algorithm with non numbers only but various sort of data).
 
 O(1) - the best, O(log n), O(n), O(nlog n), O(n^2) - the worst
+
+Different terms for inputs
+
+We had  function int addItems(int n), now, if we have for example int addItems(int a, int b) where we will go through two for loop one after another, we will not have O(n) + O(n) = O(2n) = O(n), but  will have O(a+b)
+That means in this case if we have int addItems(int a, int b) but we have two loops one nested into another, complexity will be O(a*b).
+
