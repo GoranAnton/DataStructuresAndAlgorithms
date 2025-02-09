@@ -3,5 +3,5 @@
 
 int main()
 {
-    LinkedList* myLinkedList = new LinkedList(4);
+    std::shared_ptr<LinkedList> myLinkedList = std::make_shared<LinkedList>(4);
 }
