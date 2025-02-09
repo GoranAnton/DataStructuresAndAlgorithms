@@ -1,1 +1,4 @@
-Big O is comparing the two set of code, how efficient they run, time complexity (which code is faster) measurement is in number of operations time/space(memory) complexity
+Big O is a way comparing the two set of code, how efficient they run, time complexity (which code is faster) measurement is in number of operations time/space(memory) complexity.
+Time complexity is not measured in time, it is measured in number of operations to complete something.
+Regarding space complexity we measure how memory code takes while it runs.
+In some cases space efficiency is priority in other time complexity can be priority.
