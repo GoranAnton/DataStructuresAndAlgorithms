@@ -8,3 +8,12 @@ public:
 
     Node(int value);
 };
+
+class LinkedList
+{
+    Node* head;
+    Node* tail;
+    int length;
+public:
+    LinkedList(int value);
+};

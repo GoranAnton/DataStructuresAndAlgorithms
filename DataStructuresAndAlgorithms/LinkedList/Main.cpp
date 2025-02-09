@@ -3,5 +3,5 @@
 
 int main()
 {
-    Node(5);
+    LinkedList* myLinkedList = new LinkedList(4);
 }
