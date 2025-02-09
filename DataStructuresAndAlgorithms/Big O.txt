@@ -28,3 +28,13 @@ Another way to simplify Big O is Drop Non-Dominants
 If we have nested for loop, and if we have additional single for loop, after nested for loops, complexity will be O(n^2 + n), n^2 is dominant, and n is non-dominant,
 so if n is larger and larger, than n will be less significant. We simplify this by droping non-dominant n and it will be O(n^2).
 
+3) Next Big O is O(1)
+If we have function
+int addItems(int n)
+{
+	return n + n;
+}
+Here number of operations does not change as n becomes larger, here we have one operation which is addition. This is O(1); If we have n+n+n we will have two operations,
+and that will be O(2), but we will simplify this and write O(1).
+O(1) is the most efficient Big O! If n becomes larger, the number of operations will not change.
+
