@@ -54,3 +54,13 @@ Different terms for inputs
 We had  function int addItems(int n), now, if we have for example int addItems(int a, int b) where we will go through two for loop one after another, we will not have O(n) + O(n) = O(2n) = O(n), but  will have O(a+b)
 That means in this case if we have int addItems(int a, int b) but we have two loops one nested into another, complexity will be O(a*b).
 
+Big O - Vectors
+
+From Big O perspective for vectors and arrays adding something to the end we don't have to touch any of existing elements. When we remove item from the end (at vectors and arrays) we also don't need to touch any other element.
+Because of that ADDING or REMOVING from vector and array will be O(1). Removing element from the begining of the vector we don't have balid indexes so we have to change indexes (1->0), (2->1) etc.
+In that way we have to touch every remaining item in vector, or if we want to add that item in the beggining of the vector, we need to touch every element in the vector (index 2->3),(index 1->2) etc.
+ADDING or REMOVING from thr beggining of the vector (because we have to touch every element) complexity will be O(n).
+Adding or removing element in the middle of the vector complexity should be O(1/2n). Since Big ) is worst case (not average case) and we dropt constants and adding and removing in the middle of the vector will be O(n).
+
+Finding the item BY VALUE at vector we have to iterate through the vector (from beggining to the end) and complexity will be O(n);
+Finding the item BY INDEX at vectir we are going directly at that place in one step and that complexity will be O(1).
