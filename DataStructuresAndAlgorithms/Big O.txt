@@ -2,8 +2,8 @@ Big O is a way comparing the two set of code, how efficient they run, time compl
 Time complexity is not measured in time, it is measured in number of operations to complete something.
 Regarding space complexity we measure how memory code takes while it runs.
 In some cases space efficiency is priority in other time complexity can be priority.
-
 Omicron or Big O is used for worst case in Data structures (foe example getting the last element in array).
+
 1) First Big O is O(n)
 This is classic for(int i=0; i < n; ++i) loop. This function is O(n) - proportional
 With Big O we have a few rules for simplification. One of those is Drop constants.
