@@ -38,3 +38,13 @@ Here number of operations does not change as n becomes larger, here we have one 
 and that will be O(2), but we will simplify this and write O(1).
 O(1) is the most efficient Big O! If n becomes larger, the number of operations will not change.
 
+4) Next Big O is O(log n)
+If we have list from 1 to 8, (we have to have sorted data), and we have to find the mot efficient way to find the number in a list (we don't know where is the number in the list).
+We will divide whole list on a half, and we will say is it in a first half or is it in a second half. If number is not in a second half, we will remove it and we will agan divide rest 
+of number on a half, again we will check where is not the number and will remove it, and again we will divide remaining list on a half, until we have single number which is actually
+number that we are looking for. For 8 items we had 3 steps to find a number (2^3 = 8). This is O(log n). For example if we have 4,294,967,296 numbers, we need 32 steps to find a number.
+O(log n) is wery flat, not as O(1), but is far more efficient than O(n).
+
+5) There is O(nlog n) used in some sorting algorithms -> Merge Sort and Quick sort (the most efficient we can make with sorting algorithm with non numbers only but various sort of data).
+
+O(1) - the best, O(log n), O(n), O(nlog n), O(n^2) - the worst
