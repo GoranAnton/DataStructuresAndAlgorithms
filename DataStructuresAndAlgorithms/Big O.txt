@@ -64,3 +64,13 @@ Adding or removing element in the middle of the vector complexity should be O(1/
 
 Finding the item BY VALUE at vector we have to iterate through the vector (from beggining to the end) and complexity will be O(n);
 Finding the item BY INDEX at vectir we are going directly at that place in one step and that complexity will be O(1).
+
+If n grows, the differences between O(1), O(log n), O(n) and O(n^2) will grow much faster.
+We have following terminologies:
+O(n^2) - Loop withing a loop
+O(n) - Proportional
+O(log n) - Divide and Conquer
+O(1) - Constant
+
+O(n^2) it worst
+O(n), O(log n) and O(1) is something that we should use.
